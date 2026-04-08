@@ -126,12 +126,12 @@ export const Home = () => {
                   {/* Face glow */}
                   <circle cx="60" cy="58" r="28" fill="url(#faceGrad)" />
                   {/* Eyes */}
-                  <motion.ellipse cx="50" cy="54" rx="5" ry="6" fill="#1e1b4b"
-                    animate={{ ry: [6, 1, 6] }} transition={{ duration: 3, repeat: Infinity, repeatDelay: 2 }}
-                  />
-                  <motion.ellipse cx="70" cy="54" rx="5" ry="6" fill="#1e1b4b"
-                    animate={{ ry: [6, 1, 6] }} transition={{ duration: 3, repeat: Infinity, repeatDelay: 2 }}
-                  />
+                  <motion.g style={{ transformOrigin: "50px 54px" }} animate={{ scaleY: [1, 0.15, 1] }} transition={{ duration: 3, repeat: Infinity, repeatDelay: 2 }}>
+                    <ellipse cx="50" cy="54" rx="5" ry="6" fill="#1e1b4b" />
+                  </motion.g>
+                  <motion.g style={{ transformOrigin: "70px 54px" }} animate={{ scaleY: [1, 0.15, 1] }} transition={{ duration: 3, repeat: Infinity, repeatDelay: 2 }}>
+                    <ellipse cx="70" cy="54" rx="5" ry="6" fill="#1e1b4b" />
+                  </motion.g>
                   {/* Eye shine */}
                   <circle cx="52" cy="51" r="2" fill="white" />
                   <circle cx="72" cy="51" r="2" fill="white" />
