@@ -1,0 +1,814 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "La Nuit Magique de Cendrillon",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/La Petite Sirène.jpg",
+      "duration": "12:34",
+      "description": "Regardez les rêves de Cendrillon se réaliser lors d'une nuit magique au bal !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/860183a4-a0e2-4c20-b9ab-dceefe3c9e7a/play_480p.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Blanche-Neige et les Sept Nains",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/la Reine des neiges.jpg",
+      "duration": "15:22",
+      "description": "Un conte magique de Blanche-Neige et ses sept petits amis !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/26b1ce45-eb23-42eb-be00-20bca3a11d8f/play_480p.mp4"
+    },
+    {
+      "id": 3,
+      "title": "La Belle au Bois Dormant",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/Bonne Nuit.jpg",
+      "duration": "13:45",
+      "description": "Une princesse réveillée par le baiser du vrai amour !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/dbb8dc6b-1ac9-46c7-a7e2-b0f4acdd9f41/play_480p.mp4"
+    },
+    {
+      "id": 4,
+      "title": "La Tour de Raiponce",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/Raiponce.jpg",
+      "duration": "14:20",
+      "description": "Les longs cheveux dorés de Raiponce et son aventure vers la liberté !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/74289419-50d5-4f57-a9c2-7b2456c6977b/play_480p.mp4"
+    },
+    {
+      "id": 5,
+      "title": "Le Petit Chaperon Rouge",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/Le Chat Botté.jpg",
+      "duration": "11:15",
+      "description": "Le voyage courageux d'une petite fille à travers les bois !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/f52f0266-d469-4ad0-a52c-80f080cfd7cd/play_480p.mp4"
+    },
+    {
+      "id": 6,
+      "title": "Les Trois Petits Cochons",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/Les Trois Petits Cochons.jpg",
+      "duration": "10:30",
+      "description": "Trois petits cochons débrouillards construisent leurs rêves !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/de13e74d-6d8e-45a8-b065-f359c872bcc2/play_480p.mp4"
+    },
+    {
+      "id": 7,
+      "title": "Hansel et Gretel",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/HEIDI.jpg",
+      "duration": "13:00",
+      "description": "Deux frères et sœurs dans une aventure magique en forêt !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/56d1ab34-ac39-44e6-829a-d4d9b9bad170/play_480p.mp4"
+    },
+    {
+      "id": 8,
+      "title": "Jack et le Haricot Géant",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/Jack et le Haricot Géant.jpg",
+      "duration": "12:45",
+      "description": "Un garçon grimpe un haricot magique pour sauver sa famille !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/034a0e45-4957-4866-9ba3-ec505cc4c8f7/play_480p.mp4"
+    },
+    {
+      "id": 9,
+      "title": "Boucle d'Or et les Trois Ours",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/Boucle dOr et les Trois Ours.jpg",
+      "duration": "9:50",
+      "description": "Boucle d'Or découvre la bouillie parfaite !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/eb84db8e-a83c-4a57-adb9-180669381daf/play_480p.mp4"
+    },
+    {
+      "id": 10,
+      "title": "La Belle et la Bête",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/Poucelina.jpg",
+      "duration": "14:30",
+      "description": "Un conte de gentillesse et de vrai amour !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/41f548dd-e753-4d99-ada5-e400659d084d/play_480p.mp4"
+    },
+    {
+      "id": 15,
+      "title": "Chanson des Chiffres 1-10",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KidsFairy Thumbnails/Les Habits Neufs.jpg",
+      "duration": "5:00",
+      "description": "Comptez de 1 à 10 avec des mélodies entraînantes !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 16,
+      "title": "Chiffre 1",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KidsFairy Thumbnails/Les lutins et le cordonnier.jpg",
+      "duration": "2:45",
+      "description": "Apprenez le chiffre 1 avec des chansons et des visuels !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 17,
+      "title": "Chiffre 2",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KidsFairy Thumbnails/Les Trois Petits Cochons.jpg",
+      "duration": "2:50",
+      "description": "Apprenez le chiffre 2 avec des chansons et des visuels !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 18,
+      "title": "Les Couleurs de l'Arc-en-ciel",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/Raiponce.jpg",
+      "duration": "6:30",
+      "description": "Apprenez toutes les belles couleurs !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 19,
+      "title": "Le Cycle de l'Eau",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/La Petite Fille aux allumettes.jpg",
+      "duration": "7:15",
+      "description": "Découvrez comment l'eau se déplace dans la nature !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 20,
+      "title": "Les Dinosaures - Rois de la Terre",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/KALA et Les Quarante Voleurs.jpg",
+      "duration": "8:45",
+      "description": "Apprenez-en plus sur les incroyables dinosaures !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 21,
+      "title": "Le Système Solaire",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/La Petite Poule Rousse.jpg",
+      "duration": "9:20",
+      "description": "Explorez les planètes et les étoiles !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 22,
+      "title": "Partager c'est Aimer",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KidsFairy Thumbnails/La Princesse au petit pois.jpg",
+      "duration": "5:30",
+      "description": "Apprenez pourquoi partager rend tout le monde heureux !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 23,
+      "title": "La Gentillesse, ça Compte",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KidsFairy Thumbnails/Le prince grenouille.jpg",
+      "duration": "6:00",
+      "description": "Découvrez le pouvoir d'être gentil avec tout le monde !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 24,
+      "title": "L'Honnêteté est la Meilleure Politique",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KidsFairy Thumbnails/Le vilain petit canard.jpg",
+      "duration": "5:45",
+      "description": "Apprenez pourquoi dire la vérité est important !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 25,
+      "title": "Être un Bon Ami",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KidsFairy Thumbnails/PinocHHho.jpg",
+      "duration": "6:15",
+      "description": "Conseils pour être le meilleur ami possible !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 26,
+      "title": "La Princesse et la Grenouille",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/Le prince grenouille.jpg",
+      "duration": "13:30",
+      "description": "Une transformation magique et le vrai amour !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/5ad88cc0-7e68-41c7-8988-92ff32e86750/play_480p.mp4"
+    },
+    {
+      "id": 27,
+      "title": "L'Aventure de Pinocchio",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/PinocHHho.jpg",
+      "duration": "14:00",
+      "description": "Le voyage d'une marionnette pour devenir réelle !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/4cecda75-c6ec-4e13-990f-f57d3e60c9e2/play_480p.mp4"
+    },
+    {
+      "id": 29,
+      "title": "La Lampe Magique d'Aladdin",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/KALA et Les Quarante Voleurs.jpg",
+      "duration": "15:00",
+      "description": "Un gamin des rues trouve une lampe magique !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/44c27e40-15da-4755-8797-833bef7d5075/play_480p.mp4"
+    },
+    {
+      "id": 34,
+      "title": "Chiffre 3",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KidsFairy Thumbnails/Rumpelstiltski.jpg",
+      "duration": "2:55",
+      "description": "Apprenez le chiffre 3 avec des chansons et des visuels !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 35,
+      "title": "Chiffre 4",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KidsFairy Thumbnails/Jack et le Haricot Géant.jpg",
+      "duration": "2:58",
+      "description": "Apprenez le chiffre 4 avec des chansons et des visuels !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 36,
+      "title": "Chiffre 5",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KidsFairy Thumbnails/Boucle dOr et les Trois Ours.jpg",
+      "duration": "3:00",
+      "description": "Apprenez le chiffre 5 avec des chansons et des visuels !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 37,
+      "title": "Les Sons des Animaux",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/Le Chat Botté.jpg",
+      "duration": "7:00",
+      "description": "Apprenez les sons des différents animaux !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 38,
+      "title": "Les Animaux de l'Océan",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/la Reine des neiges.jpg",
+      "duration": "8:20",
+      "description": "Découvrez les incroyables créatures de la mer !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 39,
+      "title": "Les Animaux de la Jungle",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/Poucelina.jpg",
+      "duration": "8:50",
+      "description": "Rencontrez les incroyables animaux de la jungle !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 40,
+      "title": "Respect et Compréhension",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KidsFairy Thumbnails/La Cinq Pois.jpg",
+      "duration": "6:30",
+      "description": "Apprenez à respecter les personnes différentes !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 41,
+      "title": "Les Douze Princesses Dansantes",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/Le petit bonhomme de pain.jpg",
+      "duration": "14:15",
+      "description": "Douze sœurs partagent un secret magique !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/eda7b6ee-14f1-4cd0-974e-877d3328737c/play_480p.mp4"
+    },
+    {
+      "id": 42,
+      "title": "Rumpelstiltskin",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/Rumpelstiltski.jpg",
+      "duration": "12:30",
+      "description": "La fille d'un meunier fait face à un étrange marché !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/322eda95-6159-44df-9440-10ca2ad5a0fe/play_480p.mp4"
+    },
+    {
+      "id": 43,
+      "title": "Le Vilain Petit Canard",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/Le vilain petit canard.jpg",
+      "duration": "11:00",
+      "description": "La transformation d'un caneton en magnifique cygne !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/43bc454b-eb09-4406-bc3c-1141e7f5e166/play_480p.mp4"
+    },
+    {
+      "id": 46,
+      "title": "Chiffre 6",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KidsFairy Thumbnails/Les Trois Petits Cochons.jpg",
+      "duration": "3:02",
+      "description": "Apprenez le chiffre 6 avec des chansons et des visuels !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 47,
+      "title": "La Météo et les Saisons",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/Le prince grenouille.jpg",
+      "duration": "7:45",
+      "description": "Apprenez les différentes météos et saisons !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 48,
+      "title": "Le Corps et la Santé",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/Le vilain petit canard.jpg",
+      "duration": "8:30",
+      "description": "Comprenez comment fonctionne notre corps !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 49,
+      "title": "Courage et Bravoure",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KidsFairy Thumbnails/PinocHHho.jpg",
+      "duration": "6:45",
+      "description": "Être courageux même quand on a peur !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 50,
+      "title": "Les Habits Neufs de l'Empereur",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/Les Habits Neufs.jpg",
+      "duration": "10:45",
+      "description": "Un empereur vaniteux apprend une leçon précieuse !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/a5b8cb33-3a11-46cd-9f02-c4f3e3c12e7f/play_480p.mp4"
+    },
+    {
+      "id": 52,
+      "title": "Chiffre 7",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KidsFairy Thumbnails/La Petite Fille aux allumettes.jpg",
+      "duration": "3:05",
+      "description": "Apprenez le chiffre 7 avec des chansons et des visuels !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 53,
+      "title": "Les Plantes et la Nature",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KidsFairy Thumbnails/La Petite Poule Rousse.jpg",
+      "duration": "7:20",
+      "description": "Découvrez le merveilleux monde des plantes !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 54,
+      "title": "Patience et Persévérance",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KidsFairy Thumbnails/La Princesse au petit pois.jpg",
+      "duration": "6:20",
+      "description": "Ne jamais abandonner ses rêves !",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 59,
+      "title": "La Princesse aux Cinq Pois",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/La Cinq Pois.jpg",
+      "duration": "9:00",
+      "description": "Une princesse prouve sa royauté grâce à un petit pois !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/c59e88a1-5daa-4a1b-b07c-57d06a597e26/play_480p.mp4"
+    },
+    {
+      "id": 60,
+      "title": "La Petite Fille aux Allumettes",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/La Petite Fille aux allumettes.jpg",
+      "duration": "10:30",
+      "description": "Un conte touchant d'une petite fille par une froide nuit d'hiver !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/942d304e-0c28-4553-9974-9f2c509609f1/play_480p.mp4"
+    },
+    {
+      "id": 61,
+      "title": "La Petite Poule Rousse",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/La Petite Poule Rousse.jpg",
+      "duration": "9:15",
+      "description": "Une poule travailleuse enseigne la valeur de l'effort !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/3678ad42-1c96-40f3-bd9d-61b69c585b1a/play_480p.mp4"
+    },
+    {
+      "id": 62,
+      "title": "La Princesse au Petit Pois",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/La Princesse au petit pois.jpg",
+      "duration": "8:45",
+      "description": "Une vraie princesse est découverte grâce à un petit pois !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/11630e7c-77cb-455c-a401-20d0dcf35bd7/play_480p.mp4"
+    },
+    {
+      "id": 64,
+      "title": "Le Lion et la Souris",
+      "category": "fairy-tales",
+      "subcategory": "adventure",
+      "thumbnail": "/KidsFairy Thumbnails/Le Lion et la Souris.jpg",
+      "duration": "7:30",
+      "description": "Une petite souris sauve un lion puissant !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/209001b3-4c33-4449-a53b-01c87a0f6a50/play_480p.mp4"
+    },
+    {
+      "id": 66,
+      "title": "Le Prince Heureux",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/le prince Heureux.jpg",
+      "duration": "11:00",
+      "description": "Un prince doré et une petite hirondelle partagent une histoire de gentillesse !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/fa6876ae-c218-48dd-9310-4624aea2b457/play_480p.mp4"
+    },
+    {
+      "id": 67,
+      "title": "Les Lutins et le Cordonnier",
+      "category": "fairy-tales",
+      "subcategory": "classic",
+      "thumbnail": "/KidsFairy Thumbnails/Les lutins et le cordonnier.jpg",
+      "duration": "10:00",
+      "description": "De petits lutins aident un pauvre cordonnier pendant la nuit !",
+      "videoUrl": "https://vz-7431b15a-30f.b-cdn.net/8fb23603-4f14-43d2-b15f-8a3c9c4cd79b/play_480p.mp4"
+    },
+    {
+      "id": 68,
+      "title": "Leçon de Français 1 - Les Salutations",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French lesson 1 How to greet someone in French.jpg",
+      "duration": "0:00",
+      "description": "Apprenez à saluer quelqu'un en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/790320af-fe0d-4aac-8f98-3699c903a0fe/play_480p.mp4"
+    },
+    {
+      "id": 69,
+      "title": "Leçon de Français 1 - Les Salutations 2",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French lesson 1 How to greet someone in French 2.jpg",
+      "duration": "0:00",
+      "description": "Plus de salutations en français pour débutants !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/790320af-fe0d-4aac-8f98-3699c903a0fe/play_480p.mp4"
+    },
+    {
+      "id": 70,
+      "title": "Les Salutations en Français 🇫🇷",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/Greetings in French 🇫🇷 - Learn French.jpg",
+      "duration": "0:00",
+      "description": "Apprenez les salutations courantes en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/6a140be4-c685-4944-9f0f-5e74ec211e0e/play_480p.mp4"
+    },
+    {
+      "id": 71,
+      "title": "Comment Parler avec un Accent Français",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/How To Speak With A French Accent.jpg",
+      "duration": "0:00",
+      "description": "Conseils pour maîtriser l'accent français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/92af6353-1c6d-482c-8bfb-8cbf91c23256/play_480p.mp4"
+    },
+    {
+      "id": 72,
+      "title": "Les Adjectifs Français - Labo de Français",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French Adjectives  Learn French Lab.jpg",
+      "duration": "0:00",
+      "description": "Apprenez les adjectifs français avec des exemples amusants !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/d5a2c8e6-0483-4365-bbf1-92c05bfaf40b/play_360p.mp4"
+    },
+    {
+      "id": 73,
+      "title": "Labo de Français 1",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French Lab1.jpg",
+      "duration": "0:00",
+      "description": "Leçon de labo de français 1 !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/8c43ae91-1012-420c-ae8a-999499003e41/play_360p.mp4"
+    },
+    {
+      "id": 74,
+      "title": "Labo de Français 2",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French Lab2.jpg",
+      "duration": "0:00",
+      "description": "Leçon de labo de français 2 !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/79103961-341b-4051-a39e-2972238f5fba/play_360p.mp4"
+    },
+    {
+      "id": 75,
+      "title": "Labo de Français 3",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French Lab3.jpg",
+      "duration": "0:00",
+      "description": "Leçon de labo de français 3 !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/7e8855f7-f3f5-4c56-9376-a1e51facf97a/play_360p.mp4"
+    },
+    {
+      "id": 76,
+      "title": "Labo de Français 4",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French Lab4.jpg",
+      "duration": "0:00",
+      "description": "Leçon de labo de français 4 !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/79162a87-5604-49db-9381-2cde95cf544c/play_480p.mp4"
+    },
+    {
+      "id": 77,
+      "title": "Labo de Français 5",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French Lab5.jpg",
+      "duration": "0:00",
+      "description": "Leçon de labo de français 5 !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/4bdecf94-3120-4f00-839c-6da16607af11/play_360p.mp4"
+    },
+    {
+      "id": 78,
+      "title": "Labo de Français 6",
+      "category": "education",
+      "subcategory": "alphabet",
+      "thumbnail": "/KIdsLearningThumbnail/French Lab6.jpg",
+      "duration": "0:00",
+      "description": "Leçon de labo de français 6 !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/002fd466-1de6-4c42-99c9-cb30fa64e763/play_480p.mp4"
+    },
+    {
+      "id": 79,
+      "title": "Les Chiffres 1-10 en Français 🇫🇷",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KIdsLearningThumbnail/Numbers 1-10 in French 🇫🇷 - Learn French.jpg",
+      "duration": "0:00",
+      "description": "Comptez de 1 à 10 en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/d59fc564-a2ac-4790-9d73-50241d7d4a16/play_480p.mp4"
+    },
+    {
+      "id": 80,
+      "title": "Les Jours de la Semaine en Français 🇫🇷",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KIdsLearningThumbnail/Days of the Week in French 🇫🇷.jpg",
+      "duration": "0:00",
+      "description": "Apprenez les jours de la semaine en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/b0738b62-b3c7-489d-8d78-c203a384008a/play_360p.mp4"
+    },
+    {
+      "id": 81,
+      "title": "Les Jours de la Semaine en Français 2 🇫🇷",
+      "category": "education",
+      "subcategory": "numbers",
+      "thumbnail": "/KIdsLearningThumbnail/Days of the Week in French 🇫🇷 - Learn Frenchh.jpg",
+      "duration": "0:00",
+      "description": "Plus de pratique avec les jours de la semaine en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/244f66d6-b3db-4669-b681-085bd9f0a3e8/play_480p.mp4"
+    },
+    {
+      "id": 82,
+      "title": "Les Couleurs en Français 🇫🇷",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KIdsLearningThumbnail/Colours in French 🇫🇷 - Learn French.jpg",
+      "duration": "0:00",
+      "description": "Apprenez les couleurs en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/aebc9d42-dfef-44ee-b7bf-5dbaa198b183/play_480p.mp4"
+    },
+    {
+      "id": 83,
+      "title": "Les Couleurs en Français 2 🇫🇷",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KIdsLearningThumbnail/Colours in French 🇫🇷 - Learn French 2.jpg",
+      "duration": "0:00",
+      "description": "Plus de couleurs en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/cbcdbbea-1826-48e8-af21-23e1073e70f2/play_480p.mp4"
+    },
+    {
+      "id": 84,
+      "title": "Les Aliments en Français 🇫🇷",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KIdsLearningThumbnail/Food names in French 🇫🇷 - Learn French.jpg",
+      "duration": "0:00",
+      "description": "Apprenez les noms des aliments en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/0935cf22-b586-4cc2-9dc5-66d982cf58c1/play_480p.mp4"
+    },
+    {
+      "id": 85,
+      "title": "Le Vocabulaire Scolaire en Français 🇫🇷",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KIdsLearningThumbnail/School Words in French 🇫🇷 - Learn French.jpg",
+      "duration": "0:00",
+      "description": "Apprenez le vocabulaire scolaire en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/bdda9bdd-1470-4db5-a515-d4ca1709662a/play_480p.mp4"
+    },
+    {
+      "id": 86,
+      "title": "Les Lieux en Ville en Français 🇫🇷",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KIdsLearningThumbnail/Places Around Town in French 🇫🇷 - Learn French.jpg",
+      "duration": "0:00",
+      "description": "Apprenez les lieux en ville en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/04663880-5094-40a3-8268-d51fef0c3dc6/play_480p.mp4"
+    },
+    {
+      "id": 87,
+      "title": "La Chanson de la Famille en Français",
+      "category": "education",
+      "subcategory": "science",
+      "thumbnail": "/KIdsLearningThumbnail/French family song for children.jpg",
+      "duration": "0:00",
+      "description": "Une chanson amusante pour apprendre les mots de la famille en français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/5f989641-d880-4205-929c-0020b369090a/play_480p.mp4"
+    },
+    {
+      "id": 88,
+      "title": "Bingo en Français",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/bingo.jpg",
+      "duration": "0:00",
+      "description": "Jouez au Bingo et apprenez des mots français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/67f47de1-c4c1-4385-9b42-ea9f570f9b71/play_360p.mp4"
+    },
+    {
+      "id": 89,
+      "title": "Jeu de Cartes Flash",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/flashcards game.jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec des cartes flash interactives !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/1e3741bb-0caa-4a09-a9cc-df9c90bc31a5/play_360p.mp4"
+    },
+    {
+      "id": 90,
+      "title": "Jeu de Mémoire",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Memory Game.jpg",
+      "duration": "0:00",
+      "description": "Testez votre mémoire avec des mots français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/9c19f4b8-4f22-4ca8-a450-31e04f2bc529/play_360p.mp4"
+    },
+    {
+      "id": 91,
+      "title": "Qu'est-ce qui Manque ?",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/whats missing.jpg",
+      "duration": "0:00",
+      "description": "Un jeu amusant pour affiner votre vocabulaire français !",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/3b63306a-e179-4312-8024-a5ffe55aa54c/play_360p.mp4"
+    },
+    {
+      "id": 92,
+      "title": "Lou ! Épisode 1 - Apprendre le Français avec des Dessins Animés",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Lou! -Episode 1 (Learn French with Cartoons).jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec Lou ! - Épisode 1",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/6301bbf9-44d3-4972-9452-7b22c37e8a5b/play_480p.mp4"
+    },
+    {
+      "id": 93,
+      "title": "Lou ! Épisode 2 - Apprendre le Français avec des Dessins Animés",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Lou! -Episode 2 (Learn French with Cartoons).jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec Lou ! - Épisode 2",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/24d4344f-47e6-47bd-a40d-73c87cf6826d/play_480p.mp4"
+    },
+    {
+      "id": 94,
+      "title": "Lou ! Épisode 3 - Apprendre le Français avec des Dessins Animés",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Lou! -Episode 3 (Learn French with Cartoons).jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec Lou ! - Épisode 3",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/cc4b6529-43e9-487b-8d8e-1996e71e8d2b/play_480p.mp4"
+    },
+    {
+      "id": 95,
+      "title": "Lou ! Épisode 4 - Apprendre le Français avec des Dessins Animés",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Lou! -Episode 4 (Learn French with Cartoons).jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec Lou ! - Épisode 4",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/ba1b0209-2666-4abb-962a-9845ef10bcd6/play_480p.mp4"
+    },
+    {
+      "id": 96,
+      "title": "Lou ! Épisode 5 - Apprendre le Français avec des Dessins Animés",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Lou! -Episode 5 (Learn French with Cartoons).jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec Lou ! - Épisode 5",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/56a81b08-916f-4615-9213-af47d8fba129/play_480p.mp4"
+    },
+    {
+      "id": 97,
+      "title": "Lou ! Épisode 6 - Apprendre le Français avec des Dessins Animés",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Lou! -Episode 6 (Learn French with Cartoons).jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec Lou ! - Épisode 6",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/9d21bc41-0bdd-4d54-9169-2f348b549d99/play_480p.mp4"
+    },
+    {
+      "id": 98,
+      "title": "Lou ! Épisode 7 - Apprendre le Français avec des Dessins Animés",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Lou! -Episode 7 (Learn French with Cartoons).jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec Lou ! - Épisode 7",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/b3921ab4-599a-4949-b457-7bfedde33ffe/play_480p.mp4"
+    },
+    {
+      "id": 99,
+      "title": "Lou ! Épisode 8 - Apprendre le Français avec des Dessins Animés",
+      "category": "education",
+      "subcategory": "moral",
+      "thumbnail": "/KIdsLearningThumbnail/Lou! -Episode 8(Learn French with Cartoons).jpg",
+      "duration": "0:00",
+      "description": "Apprenez le français avec Lou ! - Épisode 8",
+      "videoUrl": "https://vz-2c7aef55-281.b-cdn.net/0ec4c8dc-6bd7-4ca7-8b31-73d6857d7627/play_480p.mp4"
+    }
+  ]
+}

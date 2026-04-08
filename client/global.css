@@ -1,0 +1,383 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    /* Bright & playful background */
+    --background: 50 100% 98%;
+    --foreground: 280 30% 20%;
+
+    /* Card colors - soft white with hints of color */
+    --card: 0 0% 100%;
+    --card-foreground: 280 30% 20%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 280 30% 20%;
+
+    /* Primary - vibrant berry pink */
+    --primary: 330 84% 57%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - soft mint green */
+    --secondary: 150 75% 75%;
+    --secondary-foreground: 280 30% 20%;
+
+    /* Muted - soft lavender */
+    --muted: 280 60% 85%;
+    --muted-foreground: 280 20% 40%;
+
+    /* Accent - bright sky blue */
+    --accent: 200 98% 70%;
+    --accent-foreground: 280 30% 20%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Border and input - light pastel */
+    --border: 280 40% 92%;
+    --input: 280 40% 92%;
+    --ring: 330 84% 57%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 50 100% 98%;
+    --sidebar-foreground: 280 30% 20%;
+    --sidebar-primary: 330 84% 57%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 200 98% 70%;
+    --sidebar-accent-foreground: 280 30% 20%;
+    --sidebar-border: 280 40% 92%;
+    --sidebar-ring: 330 84% 57%;
+  }
+
+  .dark {
+    --background: 280 30% 15%;
+    --foreground: 50 100% 95%;
+
+    --card: 280 25% 25%;
+    --card-foreground: 50 100% 95%;
+
+    --popover: 280 25% 25%;
+    --popover-foreground: 50 100% 95%;
+
+    --primary: 330 84% 60%;
+    --primary-foreground: 280 30% 15%;
+
+    --secondary: 150 70% 65%;
+    --secondary-foreground: 280 30% 15%;
+
+    --muted: 280 40% 35%;
+    --muted-foreground: 50 50% 75%;
+
+    --accent: 200 95% 65%;
+    --accent-foreground: 280 30% 15%;
+
+    --destructive: 0 75% 50%;
+    --destructive-foreground: 50 100% 95%;
+
+    --border: 280 30% 30%;
+    --input: 280 30% 30%;
+    --ring: 330 84% 60%;
+
+    --sidebar-background: 280 30% 18%;
+    --sidebar-foreground: 50 100% 95%;
+    --sidebar-primary: 330 84% 60%;
+    --sidebar-primary-foreground: 280 30% 15%;
+    --sidebar-accent: 200 95% 65%;
+    --sidebar-accent-foreground: 280 30% 15%;
+    --sidebar-border: 280 30% 30%;
+    --sidebar-ring: 330 84% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground overflow-x-hidden;
+    position: relative;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background: linear-gradient(135deg, #fdf4ff 0%, #eff6ff 40%, #f0fdf4 70%, #fff7ed 100%);
+  }
+
+  #bg-video {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+    opacity: 0.18;
+    pointer-events: none;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+/* ========================= */
+/* Play365 Inspired Utilities */
+/* ========================= */
+
+/* General font for smaller uppercase labels */
+.font-general {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.08em;
+}
+
+/* Special font for large display headings */
+.special-font {
+  font-family: "Fredoka", "Poppins", system-ui, sans-serif;
+}
+
+.special-font b {
+  font-family: "Fredoka", "Poppins", system-ui, sans-serif;
+  font-weight: 700;
+  color: hsl(330, 84%, 57%);
+}
+
+/* Hero Heading — large bold display text */
+.hero-heading {
+  font-family: "Fredoka", system-ui, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.85;
+  font-size: clamp(3rem, 10vw, 10rem);
+}
+
+/* Bento title — used inside bento grid cards */
+.bento-title {
+  font-family: "Fredoka", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 4vw, 4rem);
+  line-height: 1;
+}
+
+/* Animated Title */
+.animated-title {
+  font-family: "Fredoka", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 6rem);
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.animated-word {
+  opacity: 0;
+  transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.animated-word b {
+  color: hsl(330, 84%, 57%);
+}
+
+/* Flex center utility */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About section subtext */
+.about-subtext {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+.about-subtext p {
+  margin-bottom: 0.5rem;
+}
+
+/* Absolute center utility */
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Nav hover button */
+.nav-hover-btn {
+  position: relative;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-hover-btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.nav-hover-btn:hover::after {
+  width: 100%;
+}
+
+/* About image clip-path animation */
+.about-image {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  transition: clip-path 0.5s ease;
+}
+
+/* Story image containers */
+.story-img-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+}
+
+.story-img-mask {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.story-img-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mask clip path */
+.mask-clip-path {
+  clip-path: polygon(
+    11% 0%,
+    89% 0%,
+    100% 11%,
+    100% 89%,
+    89% 100%,
+    11% 100%,
+    0% 89%,
+    0% 11%
+  );
+}
+
+/* Border with HSL */
+.border-hsla {
+  border: 1px solid hsla(280, 40%, 92%, 0.3);
+}
+
+/* Contact clip path shapes */
+.contact-clip-path-1 {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.contact-clip-path-2 {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Sword man clip path */
+.sword-man-clip-path {
+  clip-path: polygon(
+    15% 0%,
+    85% 0%,
+    100% 15%,
+    100% 85%,
+    85% 100%,
+    15% 100%,
+    0% 85%,
+    0% 15%
+  );
+}
+
+/* Bento tilt cards */
+.bento-tilt_1 {
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-out;
+}
+
+.bento-tilt_2 {
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(330, 84%, 57%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(330, 84%, 47%);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: clamp(2.5rem, 14vw, 5rem);
+  }
+
+  .animated-title {
+    font-size: clamp(1.8rem, 10vw, 4rem);
+  }
+
+  .bento-title {
+    font-size: clamp(1.2rem, 6vw, 2.5rem);
+  }
+
+  .story-img-container {
+    margin-top: -1rem;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
